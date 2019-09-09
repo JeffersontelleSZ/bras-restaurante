@@ -1,0 +1,44 @@
+.navbar {
+  margin-top: 5rem;
+  z-index: 2;
+  background: $secondary-color !important;
+  padding: 1.2rem 0;
+}
+
+.nav-item {
+  margin: 0 2rem;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 1.2rem;
+}
+
+.header-top {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.header-logo {
+  font-family: $font-secondary;
+  font-size: 4rem;
+}
+
+.header-logo span {
+  color: $secondary-color;
+}
+
+.header-sub {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.header-logo::before,
+.header-logo::after {
+  content: "";
+  width: 200px;
+  height: 2px;
+  display: block;
+  background-color: $primary-color;
+  margin: 1.4rem auto;
+}

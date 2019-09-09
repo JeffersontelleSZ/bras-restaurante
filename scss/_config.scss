@@ -1,0 +1,19 @@
+$primary-color: #333;
+$secondary-color: #009b3a;
+$font-primary: "Open Sans", sans-serif;
+$font-secondary: "Kaushan Script", cursive;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-primary;
+  font-size: 90%;
+  line-height: 1.6;
+  color: $primary-color;
+  width: 100%;
+  z-index: -1;
+}
