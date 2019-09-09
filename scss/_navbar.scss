@@ -1,7 +1,7 @@
 .navbar {
   margin-top: 5rem;
-  z-index: 2;
-  background: $secondary-color !important;
+  //   z-index: 2;
+  //   background: $secondary-color !important;
   padding: 1.2rem 0;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .nav-link {
-  color: #fff !important;
+  //   color: #fff !important;
   font-size: 1.2rem;
 }
 
@@ -36,7 +36,7 @@
 .header-logo::before,
 .header-logo::after {
   content: "";
-  width: 200px;
+  width: 100px;
   height: 2px;
   display: block;
   background-color: $primary-color;

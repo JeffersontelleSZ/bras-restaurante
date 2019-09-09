@@ -21,8 +21,8 @@
     </header>
 
     <!-- Navbar Static -->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,8 +51,22 @@
 
     <!-- Main -->
     <main>
-        <div class="container">
-            <h1>Conteudo</h1>
+        <div class="content-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="content-text text-right">
+                            <div class="col-md-12">
+                                <h2 class="text-lg">Delicious meat:</h2>
+                                <span>The work is always in a full swing in our kitchen! Everyone here is on fire when it comes to cooking.</span>
+                                <p>
+                                    The best cooks all over the world are gathered here together to create something really special to impress you deeply. The latest in cooking fashion, best recipes and fresh goods,this is the formula of our success.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 

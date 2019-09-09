@@ -3,9 +3,15 @@ $secondary-color: #009b3a;
 $font-primary: "Open Sans", sans-serif;
 $font-secondary: "Kaushan Script", cursive;
 
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+html {
   box-sizing: border-box;
 }
 
@@ -16,4 +22,11 @@ body {
   color: $primary-color;
   width: 100%;
   z-index: -1;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  display: block;
 }
